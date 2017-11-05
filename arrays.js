@@ -38,3 +38,7 @@ function removeElementFromEndOfArray(milkShakes){
 milkShakes.pop
   return milkShakes;
 }
+
+function removeElementFromEndOfArray(milkShakes){
+  return milkShakes.slice(0, milkShakes.length - 1);
+}
