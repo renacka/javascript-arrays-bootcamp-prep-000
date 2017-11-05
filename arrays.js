@@ -35,7 +35,7 @@ function removeElementFromBeginningOfArray(milkShakes){
 }
 
 function removeElementFromEndOfArray(milkShakes){
-milkShakes.pop
+milkShakes.pop();
   return milkShakes;
 }
 
