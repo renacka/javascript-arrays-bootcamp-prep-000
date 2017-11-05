@@ -38,5 +38,3 @@ function removeElementFromEndOfArray(milkShakes){
 milkShakes.pop
   return milkShakes;
 }
-
-
